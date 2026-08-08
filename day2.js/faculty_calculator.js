@@ -21,3 +21,4 @@ else{
 }     
 
 // alert(`The result is ${eval(`${a} ${c} ${b}`)}`)
+// this faculty calculator give 80% incorrect result which is know as faculty calculator
