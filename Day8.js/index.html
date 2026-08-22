@@ -4,11 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        
+    </style>
 </head>
 <body>
-    <div class="container">
-        <div class="box1">Lorem ipsum, dolor sit amet consectetur adipisicing</div>
+    <div class="container grren red-blue purple">
+        <div class="box1" style="display:flexbox" data-createdby = "prince" data-conceptby = "laksh" >Lorem ipsum, dolor sit amet consectetur adipisicing</div>
         <div class="box2">heelo this is </div>
     </div>
+    <script>
+
+        //there are two method to add variable in html text,element,image by js  -->
+            // this are second method uses 
+
+        let div = document.createElement("div");
+        div.innerHTML = "message are coming from <b> javascript language </b>" 
+         div.setAttribute("class","create"); 
+         document.querySelector(".container").prepend(div); 
+       
+        //there are two method to add variable in html text,element,image by js  -->
+            // this are second method uses 
+            
+         let cont = document.querySelector(".container");
+        cont.insertAdjacentHTML("afterbegin","<b> today is fresher party !!! let's enjoy the day first partcipat!!</b>");
+    </script>
+</div>
 </body>
 </html>
