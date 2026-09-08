@@ -1,18 +1,18 @@
 console.log("toturial number 77")
 console.log("hello world")
-console.log("hello tutroial")
+// console.log("hello tutroial")
 async function getData() {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve(455)
-        }, 1000)
+        }, 2000)
     })
 }
 async function main() {
    
     console.log("prince the manster07")
     console.log("hello world")
-    let data = await getData()
+    let data = getData()
     console.log("raju ")
    
     console.log(data)
