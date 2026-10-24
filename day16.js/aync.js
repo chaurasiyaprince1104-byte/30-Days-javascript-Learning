@@ -7,7 +7,7 @@
 //     })
 // }
 
-async function getdata(){
+async function getdata() {
     let x = await fetch('https://jsonplaceholder.tyicode.com/todos/1')
     let data = await x.json()
     console.log(data)
@@ -15,14 +15,24 @@ async function getdata(){
 async function main() {
 
     console.log("loading ")
+
     console.log('so something else');
+
     console.log('log data');
+
     let data = await getdata()
+
     console.log(data);
-        console.log(data);
-        console.log('process data');
-        console.log('finsih');
-    
+
+    console.log('process data');
+
+    console.log('finsih');
+
 }
 
 main()
+
+async function main(){
+    let x = await fetch('https://jsonplaceholder')
+    let data = await x.json()
+}
