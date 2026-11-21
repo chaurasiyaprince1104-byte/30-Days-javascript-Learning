@@ -4,10 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        .card{
+            display: flex;
+            /* height: 150px; */
+            border: 2px solid black;
+            width: 900px;
+            justify-content: center;
+            align-items: center; 
+            position: relative;
+            /* background-color: black; */
+            margin: 5px;
+        }
+        .image img{
+            width: 200px; 
+        }
+        .image .capsule{
+        position:absolute;
+        bottom: 4px;
+        z-index: 10;
+        right: 700px;
+        background-color: black;
+        opacity: 0.9;
+        color: white;
+        padding: 3px;
+        border-radius: 4px;
+        font-size: 14px;
+        }
+        
+    </style>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="card">
+            <div class="image">
+                <img src="https://i.ytimg.com/vi/Xoz_KYfaSkk/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLBO4gxQWwghWzkbPUJX44K7MitWag" alt"">
+                <div class="capsule">31.30</div>
+            </div>
+            <div class="text">
+                <h1>Introduction to Backend | Sigma Web Dev video #2</h1>
+                <p>CodeWithHarry . 560k views . 2 month ago</p>
+            </div>
+        </div>
+    </div>
 
 
     <script src="script.js"></script>
