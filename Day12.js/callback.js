@@ -9,7 +9,7 @@ const callback = (arg) =>{
 
 }
 
-const loadscript = (callback) =>{
+const loadscript = (sr,callback) =>{
     let sc = document.createElement("script")
     sc.src = src;
     sc.onload = callback("prince");
